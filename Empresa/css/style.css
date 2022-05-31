@@ -1,0 +1,171 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  max-width: 1444px;
+  background-color: rgb(241, 241, 241);
+}
+/*
+Colors:
+#201C2B
+#361F33
+#670F4C
+#CE225A
+#E95150
+*/
+/*Who we are*/
+#first {
+  background-image: url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 130px;
+}
+#first h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #670f4c;
+  font-size: 50px;
+  font-weight: bold;
+}
+#first p {
+  color: #f2f2f2;
+  text-align: left;
+  font-size: 20px;
+}
+
+/*budget*/
+#second h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+/*Precos*/
+.preco {
+  background-color: #f7f7f7;
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.preco-item {
+  flex: 1 1 260px;
+  border: 4px solid white;
+  padding: 20px;
+  margin: 10px;
+}
+.preco-item h2 {
+  font-size: 3em;
+  color: #a4a4a4;
+  text-align: center;
+  margin-top: 20px;
+}
+.preco-item span {
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0 5px 0;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+.preco-item sup {
+  font-size: 1.5rem;
+}
+.preco-item ul {
+  max-width: 300px;
+  margin: 20px auto;
+  font-size: 1.25em;
+  line-height: 1;
+  font-style: italic;
+  color: #7c7c7c;
+}
+.preco-item li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.preco-item li:after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #2c70ff;
+  border-radius: 50%;
+}
+.preco-item a {
+  max-width: 300px;
+  display: block;
+  margin: 20px auto;
+  border: 4px solid;
+  color: #222222;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.25em;
+  padding: 15px 0;
+  text-align: center;
+}
+
+/*Projects*/
+#third {
+  text-align: center;
+}
+/*Form*/
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0 80vh;
+}
+.form label,
+input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.form input[type="text"],
+input[type="email"],
+textarea {
+  outline: unset;
+  padding: 20px;
+  width: 300px;
+  border: 1px solid #361f33;
+  border-radius: 20px;
+}
+.form input[type="submit"] {
+  background-color: crimson;
+  cursor: pointer;
+  margin-left: 75px;
+  text-align: center;
+  width: 200px;
+  padding: 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.form input[type="submit"]:hover {
+  transition: linear 1s;
+  color: white;
+  background-color: black;
+}
+/*Contact*/
+#contact {
+  text-align: center;
+}
+.name,
+.email,
+.message {
+  border-radius: 5px;
+  padding: 7px;
+  display: block;
+  text-align: center;
+}
+/*End*/
+.end {
+  background: #361f33;
+  padding: 25px;
+  text-align: center;
+  color: #e95150;
+  font-size: 1.2em;
+}
